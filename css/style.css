@@ -1,9 +1,44 @@
 .black {
-    color: black;
-}
-.green {
-    color: green;
-}
-.red {
     color: red;
 }
+.green {
+    color: blue;
+}
+.red {
+    color: green;
+}
+#header-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+nav {
+    display: flex;
+    flex-direction: row;
+}
+nav ul li {
+    list-style: none;
+    display: inline;
+   
+}
+nav ul li a {
+    font-size: 15px;
+    color: #333333;
+  text-decoration: none;
+  padding: 15px;
+  font-family: 'Oswald', sans-serif;
+}
+
+nav ul li a:hover {
+    background-color: #e50c39;
+    color: #ffffff
+  }
+  .main-content h2 {
+    display: flex;
+    justify-content: center;
+    font-size: 40px;
+    letter-spacing: 2px;
+    color: #000000;
+    font-family: 'Oswald', sans-serif;
+  }
